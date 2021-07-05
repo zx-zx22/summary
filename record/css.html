@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>css选择器权重 | 小张的笔记</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/summary/assets/css/0.styles.caf8161f.css" as="style"><link rel="preload" href="/summary/assets/js/app.da2bae6b.js" as="script"><link rel="preload" href="/summary/assets/js/2.70cbfaa0.js" as="script"><link rel="preload" href="/summary/assets/js/10.bf045404.js" as="script"><link rel="prefetch" href="/summary/assets/js/11.e4160b6f.js"><link rel="prefetch" href="/summary/assets/js/12.5babd2af.js"><link rel="prefetch" href="/summary/assets/js/3.219290ac.js"><link rel="prefetch" href="/summary/assets/js/4.ea3e8443.js"><link rel="prefetch" href="/summary/assets/js/5.5fd3c55b.js"><link rel="prefetch" href="/summary/assets/js/6.706caab8.js"><link rel="prefetch" href="/summary/assets/js/7.e01922b8.js"><link rel="prefetch" href="/summary/assets/js/8.819b5b1c.js"><link rel="prefetch" href="/summary/assets/js/9.1a5a22f2.js">
+    <link rel="stylesheet" href="/summary/assets/css/0.styles.caf8161f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/summary/" class="home-link router-link-active"><img src="/summary/1.jpg" alt="小张的笔记" class="logo"> <span class="site-name can-hide">小张的笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/summary/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类记录" class="dropdown-title"><span class="title">分类记录</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类记录" class="mobile-dropdown-title"><span class="title">分类记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/summary/record/one.html" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/summary/record/css.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/summary/record/react.html" class="nav-link">
+  react
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/summary/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类记录" class="dropdown-title"><span class="title">分类记录</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类记录" class="mobile-dropdown-title"><span class="title">分类记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/summary/record/one.html" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/summary/record/css.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/summary/record/react.html" class="nav-link">
+  react
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/summary/record/css.html" aria-current="page" class="active sidebar-link">css</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/summary/record/css.html#css选择器权重" class="sidebar-link">css选择器权重</a></li><li class="sidebar-sub-header"><a href="/summary/record/css.html#bfc-block-format-context" class="sidebar-link">bfc(block format context)</a></li><li class="sidebar-sub-header"><a href="/summary/record/css.html#float" class="sidebar-link">float</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="css选择器权重"><a href="#css选择器权重" class="header-anchor">#</a> css选择器权重</h2> <p>css选择器的权重采用256进制</p> <p>!important:          Infinity <br>
+行间样式:        1000 <br>
+id选择器:        100 <br>
+class选择器｜属性选择器｜伪类选择器:        10 <br>
+标签选择器 ｜ 伪元素选择器:        1 <br>
+通配符选择器:           0 <br>
+在比较选择相同元素采用不同选择器的样式优先级时，将写在同一行的选择器的权重相加，较大值的选择器优先级高。<br></p> <h2 id="bfc-block-format-context"><a href="#bfc-block-format-context" class="header-anchor">#</a> bfc(block format context)</h2> <p>块及格式化上下文</p> <ul><li>可以解决margin塌陷问题（父级有margin-top时，子级不能相对于父级margin-top,除非值比父级的margin-top值大，会带着父级一起增加margin-top）</li> <li>可以解决margin合并问题(子级的margin-top区域与父级的margin-bottom区域共用了，一般可以不解决该问题）</li></ul> <p>触发盒子bfc:</p> <ul><li>position: absolute|fixed</li> <li>display: inline-block</li> <li>float: left|right</li> <li>overflow: hidden</li></ul> <h2 id="float"><a href="#float" class="header-anchor">#</a> float</h2> <p>浮动元素会产生浮动流<br></p> <ul><li>所有产生了浮动流的元素，块级元素看不到他们</li> <li>产生了bfc的元素和文本类属性（inline）的元素以及文本元素都能看到浮动元素。</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/summary/assets/js/app.da2bae6b.js" defer></script><script src="/summary/assets/js/2.70cbfaa0.js" defer></script><script src="/summary/assets/js/10.bf045404.js" defer></script>
+  </body>
+</html>
