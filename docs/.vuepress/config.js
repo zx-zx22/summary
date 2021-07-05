@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/',
+  base:'/summary/',
   title: '小张的笔记',
   description: 'Just playing around',
   markdown: {
@@ -7,6 +7,7 @@ module.exports = {
   },
   themeConfig: {
     logo: '/1.jpg',
+    sidebarDepth: 2,
     nav: [
       { text: 'Guide', link: '/guide/' },
       {
@@ -47,5 +48,5 @@ module.exports = {
         sidebarLinkSelector: '.sidebar-link',
         headerAnchorSelector: '.header-anchor'
     }
-}
+  }
 }

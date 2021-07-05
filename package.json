@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs"
   },
-  "name": "111",
+  "name": "zx",
   "version": "1.0.0",
   "main": "index.js",
   "author": "zx",
